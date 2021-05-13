@@ -1,0 +1,206 @@
+.da-thumbs {
+	list-style: none;
+	width: 984px;
+	height: 600px;
+	position: relative;
+	margin: 22px auto;
+	padding: 0;
+}
+.da-thumbs li {
+	float: left;
+	margin:10px;
+	background:url(../images/porfolio_back.png) no-repeat;
+	position: relative;
+	width:170px;
+	height:200px;
+}
+.da-thumbs li span{
+	height:192px;
+	float:left;
+	width:205px;
+	text-align:center;
+}
+.da-thumbs li span img{
+	text-align:center;
+	margin:34px auto;
+}
+.thumb_text{
+	height:28px;
+	float:left;
+	width:164px;
+	font-family:"vagroundedlt",Verdana,Arial,Helvetica,sans-serif;
+	font-size:14px;
+	color:#1E97F6;
+	text-align:center;
+	line-height:24px;
+	font-style:normal;
+	font-weight:bold;
+	height:28px;
+}
+.da-thumbs li a{
+	display: block;
+	position: relative;
+	margin:3px auto;
+	height:152px;
+}
+.da-thumbs li a img {
+	display: block;
+	position: relative;
+	margin:35px auto;
+	height:83px;
+	
+}
+.da-thumbs li a {
+	overflow: hidden;
+}
+.da-thumbs li a div {
+	position: absolute;
+	background:url(../images/porfolio_bg_hover.png) repeat-x;
+	width:164px;
+	height:151px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:198px;
+	font-size:14px;
+	color:#FFFFFF;
+	font-family:"vagroundedlt",Verdana,Arial,Helvetica,sans-serif;
+	line-height:24px;
+	font-weight:bold;
+	
+}
+.da-thumbs li a div.da-animate {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+/* Initial state classes: */
+.da-slideFromTop {
+	left: 0px;
+	top: -100%;
+}
+.da-slideFromBottom {
+	left: 0px;
+	top: 100%;
+}
+.da-slideFromLeft {
+	top: 0px; 
+	left: -100%;
+}
+.da-slideFromRight {
+	top: 0px;
+	left: 100%;
+}
+/* Final state classes: */
+.da-slideTop {
+	top: 0px;
+}
+.da-slideLeft {
+	left: 0px;
+}
+.da-thumbs li a div span {
+	display: block;
+	padding: 10px 0;
+	margin: 40px 20px 20px 20px;
+	font-weight: bold;
+	color:#FFFFFF;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	width:126px;
+	height:112px;
+	text-align:center;
+}
+
+
+
+
+.thumbs-portfolio {
+	list-style: none;
+	width:660px;
+	height: 600px;
+	position: relative;
+	margin: 20px auto;
+	padding: 0;
+}
+.thumbs-portfolio li {
+	float: left;
+	margin: 5px;
+	background: #fff;
+	padding: 8px;
+	position: relative;
+	-moz-box-shadow: 0px 0px 5px #888;
+	-webkit-box-shadow: 0px 0px 5px #888;
+	box-shadow: 0px 0px 5px #888;
+	width:29%;
+}
+.thumbs-portfolio li a,
+.thumbs-portfolio li a img {
+	display: block;
+	position: relative;
+}
+.thumbs-portfolio li a {
+	overflow: hidden;
+}
+.thumbs-portfolio li a div {
+	position: absolute;
+	background:url(../images/porfolio_bg_hover.png) repeat-x;
+	width: 100%;
+	height: 100%;
+}
+.thumbs-portfolio li a div.da-animate {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+/* Initial state classes: */
+.da-slideFromTop {
+	left: 0px;
+	top: -100%;
+}
+.da-slideFromBottom {
+	left: 0px;
+	top: 100%;
+}
+.da-slideFromLeft {
+	top: 0px; 
+	left: -100%;
+}
+.da-slideFromRight {
+	top: 0px;
+	left: 100%;
+}
+/* Final state classes: */
+.da-slideTop {
+	top: 0px;
+}
+.da-slideLeft {
+	left: 0px;
+}
+.thumbs-portfolio li a div span {
+	display: block;
+	padding: 10px 0;
+	margin:110px 20px 20px 20px;
+	font-weight: bold;
+	color:#FFFFFF;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	width:148px;
+	height:112px;
+	text-align:center;
+}
+.thumbs-portfolio-text{
+	height:33px;
+	float:left;
+	width:200px;
+	font-family:"vagroundedlt",Verdana,Arial,Helvetica,sans-serif;
+	font-size:14px;
+	color:#1E97F6;
+	text-align:center;
+	line-height:32px;
+	font-style:normal;
+	font-weight:bold;
+	height:28px;
+}
+
+
